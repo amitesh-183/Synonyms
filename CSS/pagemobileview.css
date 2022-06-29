@@ -1,0 +1,151 @@
+
+
+/* WHOLE BODY */ 
+
+@media screen and (max-width: 900px)
+{
+  body 
+   {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    margin-top: 1%;
+   }
+}
+
+
+
+/* HEADER */
+
+@media screen and (max-width: 900px)
+{
+  .logo
+  {
+      padding-top: 10px;
+      padding-bottom: 0px;
+  }
+
+
+
+
+/* SECTION */
+ 
+ /* STRIP 1 */
+@media screen and (max-width: 900px)
+{
+ .gallery1
+   {
+     flex-wrap: nowrap;
+     overflow-x: scroll;
+     justify-content: flex-start;
+   }
+}
+ 
+
+@media screen and (max-width: 900px)
+{
+ .slide1 img
+   {
+       width: 140px;
+   }
+
+   .slide1 img:hover
+  {
+      width: 155px;
+  }
+}
+
+
+
+
+/* STRIP 2 */
+@media screen and (max-width: 900px)
+{
+  .gallery2
+  {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      justify-content: flex-start;
+  }
+}
+  
+ 
+@media screen and (max-width: 900px)
+{
+  .slide2 img
+  {
+      width: 280px;
+   }
+
+   .slide2 img:hover
+   {
+       width: 320px;
+   }
+}
+
+
+
+/*FOOTER */
+
+@media screen and (max-width: 900px)
+{
+ .links 
+  {
+     padding-left: 8px;
+     padding-right: 8px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     align-self: center;
+     align-content: center;
+    
+  }
+}
+
+
+
+
+@media screen and (max-width: 900px)
+{
+ .bottom 
+  {
+     display: flex;
+     justify-self: start;
+     overflow-wrap: normal;
+     padding: 10px;
+     justify-content: center;
+     flex-wrap: wrap;
+  }
+}
+}
+
+
+/* ERROR PAGE */
+
+@media screen and (max-width: 600px)
+{
+  .errorpage
+  {
+      padding-top: 5%;
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: flex-start;
+  }
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+  html .errorpage
+  {
+      align-content: center;
+      position: absolute;
+      top: 30%;
+      left: 4%;
+      right: 3%;
+      bottom: 30%;
+  }
+}

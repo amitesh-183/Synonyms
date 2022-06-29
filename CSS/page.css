@@ -1,0 +1,269 @@
+
+
+/* WHOLE BODY */
+
+
+* 
+{
+    
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    margin-bottom: 100px;
+    background-color:#000000;
+}
+
+html 
+{
+    position: relative;
+    min-height: 100%;
+    --scrollbarBG: #000000;
+    --thumbBG: #191919b2;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+section
+{
+    padding-bottom: 3%;
+}
+
+footer
+{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+
+/* HEADER */
+
+
+header
+{
+    top: 0%;
+    align-items: left;
+    margin-top: 0px;
+    padding: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: #000000;
+}
+
+.logo
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* SECTION */
+
+    /* STRIP 1 */
+
+
+.gallery1
+{
+    display: flex;
+    justify-self: center;
+    overflow-wrap: normal;
+    padding: 0px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+
+
+.gallery1::-webkit-scrollbar {
+    height: 8px;
+  }
+
+.gallery1 
+{
+    scrollbar-width: none;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+ }
+
+.gallery1::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);}
+    
+.gallery1::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 1px solid var(--scrollbarBG);
+  }    
+
+
+.slide1 
+{
+ padding: 5px;
+ object-fit: cover;
+ object-position: top; 
+}
+
+
+
+.slide1 img
+{
+       border-radius: 0.5rem;
+       transition: 0.3s;
+}
+
+.slide1 img:hover
+{
+ object-fit: cover;
+ object-position: top;
+ width: 215px;
+ filter: brightness(50%);
+ transition: 0.4s;
+ border-radius: 0.5rem;
+}
+
+.showcase1
+{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.strip1 , .aboutpage
+{
+    padding-top: 80px;
+}
+
+
+
+/* STRIP 2 */
+
+
+.gallery2
+{
+    display: flex;
+    justify-self: flex-start;
+    overflow-wrap: normal;
+    padding: 0px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.gallery2::-webkit-scrollbar {
+    height: 8px;
+  }
+
+.gallery2 
+{
+    scrollbar-width: none;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+ }
+
+.gallery2::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);}
+    
+.gallery2::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 1px solid var(--scrollbarBG);
+  }    
+
+    
+    
+.slide2 
+{
+    padding: 5px;
+    object-fit: cover;
+    object-position: top;
+    flex-shrink: 0;
+}
+    
+.slide2 img
+{
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+    
+.slide2 img:hover
+{
+    object-fit: cover;
+    object-position: top;
+    width: 450px;
+    filter: brightness(50%);
+    transition: 0.4s;
+    border-radius: 1rem;
+}
+    
+.showcase2
+{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+    
+
+
+
+
+/*FOOTER */
+
+
+.bottom 
+{
+    display: flex;
+    justify-self: center;
+    overflow-wrap: normal;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.links 
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-self: center;
+}
+
+
+
+
+/* ERROR PAGE */
+
+.errorpage
+{
+    padding-top: 5%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+html .errorpage
+{
+    align-content: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 30%;
+}
